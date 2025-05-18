@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>James Farris's Resume</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/chest.png" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="title-name">James Farris's Resume</h1>
+        <h2 class="intro">Computer Science Student</h2>
+      </header>
+
+      <!-- NAV BAR -->
+      <nav class="nav-container">
+        <ul class="navbar">
+          <li><a href="career-goals.html">Career Goals</a></li>
+          <li><a href="cover-letter.html">Cover Letter</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+        <div class="date">
+          <p id="showDate"></p>
+        </div>
+      </nav>
+      <!-- END NAV BAR -->
+      <!-- MAIN -->
+      <main>
+        <div class="jobs">
+          <h2 class="jobs-title">Job Experience</h2>
+          <br />
+
+          <article id="job1">
+            <h3>Holiday Sands North</h3>
+            <p class="location"><strong>Myrtle Beach, SC</strong></p>
+            <hr />
+            <ul>
+              <li>Worked as a front desk clerk</li>
+              <li>Assisted guests with check-in and check-out</li>
+              <li>Handled guests' inquiries and complaints</li>
+              <li>Managed reservations and room assignments</li>
+            </ul>
+          </article>
+
+          <article id="job2">
+            <h3>Target</h3>
+            <p class="location"><strong>Myrtle Beach, SC</strong></p>
+            <hr />
+            <ul>
+              <li>
+                Monitor and replenish inventory levels in the store, ensuring
+                products are readily available for guests
+              </li>
+              <li>
+                Organize and maintain merchandise displays to enhance visual
+                appeal and maximize sales opportunities
+              </li>
+              <li>
+                Ensure accurate and timely fulfillment of Order Pickup (OPU)
+                orders
+              </li>
+              <li>
+                Resolve issues with electronic devices, troubleshooting software
+                and hardware problems, and ensuring a seamless tech experience
+                in a retail environment
+              </li>
+            </ul>
+          </article>
+
+          <article id="job3">
+            <h3>CVS Health</h3>
+            <p class="location"><strong>Myrtle Beach, SC</strong></p>
+            <hr />
+            <ul>
+              <li>
+                Back-end business management such as budget upkeep, customer
+                satisfaction metrics, and store/pharmacy financial health
+              </li>
+              <li>
+                Established effective employee schedules and delegated tasks to
+                take advantage of individual abilities and meet expected demands
+              </li>
+              <li>
+                Executed visual merchandising strategies, designing and setting
+                up displays that created an inviting and aesthetically pleasing
+                environment for customers
+              </li>
+            </ul>
+          </article>
+
+          <article id="job4">
+            <h3>Rite Aid</h3>
+            <p class="location"><strong>Luzerne, PA</strong></p>
+            <hr />
+            <ul>
+              <li>
+                Maximized performance by monitoring daily activities and
+                mentoring team members health
+              </li>
+              <li>
+                Applied customer feedback to develop process improvements and
+                support long-term business needs
+              </li>
+              <li>
+                Expanded cross-functional organizational capacity by
+                collaborating across department on priorities, functions and
+                common goals
+              </li>
+              <li>
+                Executed visual merchandising strategies, designing and setting
+                up displays that created an inviting and aesthetically pleasing
+                environment for customers
+              </li>
+            </ul>
+          </article>
+          <br
+        </div>
+
+        <h2>Education</h2>
+        <div class="education">
+          <section id="certificate">
+            <table>
+              <caption>
+                Certificates
+              </caption>
+              <thead>
+                <tr>
+                  <th></th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Certificate</td>
+                  <td>Institution</td>
+                  <td>Year</td>
+                  <td>Details</td>
+                </tr>
+                <tr>
+                  <td>Full Stack Development</td>
+                  <td>University of Minnesota</td>
+                  <td>2023</td>
+                  <td>MERN Stack Bootcamp</td>
+                </tr>
+                <tr>
+                  <td>CompTIA Network+</td>
+                  <td>CompTIA</td>
+                  <td>TBD</td>
+                  <td>Networking Fundamentals</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <section id="college"></section>
+        </div>
+      </main>
+
+      <footer>
+        <span>
+          Contact:
+          <a href="mailto:"><em>Email Me!</em></a>
+        </span>
+      </footer>
+    </div>
+  </body>
+  <script>
+    document.getElementById("showDate").textContent =
+      "Date: " + new Date().toDateString();
+    console.log("Hello World!");
+  </script>
+</html>
