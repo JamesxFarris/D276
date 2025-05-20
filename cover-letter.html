@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cover Letter</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/chest.png" />
   </head>
   <body>
-    <script src="index.js"></script>
+    <div class="container">
+      <header>
+        <h1 class="title-name">James Farris's Cover Letter</h1>
+        <h2 class="intro">Computer Science Student</h2>
+      </header>
+      <nav class="nav-container">
+        <ul class="navbar">
+          <li><a href="career-goals.html">Career Goals</a></li>
+          <li><a href="cover-letter.html">Cover Letter</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+        <div class="date">
+          <p id="showDate"></p>
+        </div>
+      </nav>
+      <main>
+        <h2 class="cover-letter-title">Cover Letter</h2>
+        <p><strong>Dear Hiring Manager,</strong></p>
+        <hr />
+        <section class="cover-letter">
+          <p>
+            I am writing to express my interest in the software engineering
+            internship position at your company. This sounds like a great way
+            for me to break into the tech industry and gain valuable experience.
+          </p>
+          <p>
+            I have a solid understanding of programming languages such as
+            <mark>HTML, CSS, SQL, and JavaScript,</mark> and I am eager to apply
+            my skills in a real-world
+          </p>
+          <p>
+            Thank you for considering my application. I look forward to the
+            opportunity to discuss how I can contribute to your team.
+          </p>
+          <p>Sincerely,</p>
+          <p><em>James Farris</em></p>
+        </section>
+      </main>
+      <footer>
+        <span>
+          Contact:
+          <a href="mailto:"><em>Email Me!</em></a>
+        </span>
+      </footer>
+    </div>
   </body>
+  <script>
+    document.getElementById("showDate").textContent =
+      "Date: " + new Date().toDateString();
+  </script>
 </html>

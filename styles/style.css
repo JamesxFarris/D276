@@ -67,7 +67,7 @@ header {
 }
 
 .navbar a:hover {
-  background-color: #ffc857;
+  background-color: #fcad46;
   color: #2d2d2d;
 }
 
@@ -84,6 +84,10 @@ header {
   font-size: 0.95rem;
   color: #555;
   text-align: center;
+}
+
+.cover-letter-title {
+  background-color: #555;
 }
 
 main {
