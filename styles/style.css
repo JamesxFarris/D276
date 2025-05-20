@@ -50,12 +50,21 @@ form {
   padding: 1.5rem;
   background-color: #f5f5f5;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 form label {
-  display: block;
-  margin-top: 1rem;
+  display: inline-block;
+  text-align: center;
   font-weight: bold;
+  margin: 1rem auto 0.5rem;
+  color: #fff;
+  background-color: #6c63ff;
+  border-radius: 999px;
+  padding: 0.6rem 1.5rem;
+  min-width: 200px; /* makes all labels at least this wide */
+  text-align: center;
 }
 
 form input,
@@ -75,6 +84,14 @@ form select {
   justify-content: center;
   font-size: larger;
   margin-top: 1rem;
+  background-color: #6c63ff;
+  border-radius: 10px;
+}
+
+.contact-method {
+  background-color: #777;
+  color: white;
+  margin-top: 2rem;
 }
 
 form input[type="radio"] {
@@ -82,9 +99,20 @@ form input[type="radio"] {
 }
 
 .radio-group {
-  margin-top: 0.5rem;
   display: flex;
-  gap: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 0.5rem;
+  background-color: #e0e0e0;
+}
+
+.radio-group label {
+  background-color: transparent;
+  font-weight: normal;
+  color: #2d2d2d;
+  padding: 1rem;
+  margin: 0;
 }
 
 .times {
