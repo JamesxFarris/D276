@@ -3,7 +3,7 @@
   📝📝📝📝📝
 <br>
   
-<strong> Note taking application built using express.js routing </strong>
+<strong> A 3 page site showing my Resume, Career Goals, and a mock cover letter </strong>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Express](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)
