@@ -9,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="/images/chest.png" />
   </head>
   <body>
+    <label for="am">A.M.</label><br />
     <img src="/images/wgu.png" alt="WGU Logo" class="wgu-logo left" />
     <img src="/images/wgu.png" alt="WGU Logo" class="wgu-logo right" />
     <div class="container">
@@ -91,15 +92,15 @@
             <textarea id="message" name="message" rows="4" cols="40"></textarea
             ><br />
 
-            <p>Best Contact Time:</p>
+            <p class="contact">Best Contact Time:</p>
+            <label for="am" class="times">A.M.</label><br />
             <input type="radio" id="am" name="contact_time" value="AM" />
-            <label for="am">A.M.</label><br />
 
+            <label for="pm" class="times">P.M.</label><br />
             <input type="radio" id="pm" name="contact_time" value="PM" />
-            <label for="pm">P.M.</label><br />
 
+            <label for="any" class="times">Anytime</label><br />
             <input type="radio" id="any" name="contact_time" value="Anytime" />
-            <label for="any">Anytime</label><br />
 
             <label for="contact_method">Preferred Contact Method:</label><br />
             <select id="contact_method" name="contact_method">
