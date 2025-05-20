@@ -28,6 +28,19 @@ hr {
   margin-top: 1rem;
 }
 
+audio {
+  display: block;
+  margin: 1rem auto;
+}
+
+iframe {
+  display: block;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+}
+
 .wgu-logo {
   position: fixed;
   top: 50%;
@@ -152,6 +165,13 @@ h3 {
   border-radius: 999px;
 }
 
+h4 {
+  color: #6c63ff;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
 article {
   margin-bottom: 2rem;
 }
@@ -194,4 +214,11 @@ footer {
   margin-top: 2rem;
   font-size: 0.95rem;
   color: #777;
+}
+
+/* Mobile Devices */
+@media (max-width: 1650px) {
+  .wgu-logo {
+    display: none;
+  }
 }
