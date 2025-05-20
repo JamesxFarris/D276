@@ -23,6 +23,10 @@ header {
   max-width: 1000px;
 }
 
+hr {
+  margin-bottom: 1.5rem;
+}
+
 .title-name {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
@@ -88,6 +92,20 @@ header {
 
 .cover-letter-title {
   background-color: #555;
+}
+
+.cover-intro {
+  display: inline-block;
+  background-color: #6c63ff;
+  color: white;
+  border-radius: 999px;
+  padding: 0.6rem 1.2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.cover-letter p {
+  margin-bottom: 1rem;
 }
 
 main {
