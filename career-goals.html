@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Career Goals</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/chest.png" />
   </head>
   <body>
-    <header>
-        <h1>My Career Goals</h1>
-    </header>
-    <nav>
-        <ul class="nav-list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="cover-letter.html">Cover Letter</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="career-goals.html">Career Goals</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-        </section>
-        <section>
-        </section>
-    </main>
-    <footer></footer>
-    
+    <img src="/images/wgu.png" alt="WGU Logo" class="wgu-logo left" />
+    <img src="/images/wgu.png" alt="WGU Logo" class="wgu-logo right" />
+    <div class="container">
+      <header>
+        <h1 class="title-name">James Farris's Career Goals</h1>
+        <h2 class="intro">Computer Science Student</h2>
+      </header>
 
-    <script src="index.js"></script>
+      <nav class="nav-container">
+        <ul class="navbar">
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="career-goals.html">Career Goals</a></li>
+          <li><a href="cover-letter.html">Cover Letter</a></li>
+        </ul>
+        <div class="date">
+          <p id="showDate"></p>
+        </div>
+      </nav>
+
+      <main>
+        <h2 class="alt-title">My Career Aspirations</h2>
+        <hr />
+        <p class="career-goals">
+          I aspire to work in the software development field, building
+          applications that make me look forward to going to work every day. I
+          would love to make a living where I can live comfortably and not have
+          to worry about finances or my job stability.
+        </p>
+
+        <h3 class="inspiration">What Inspires Me</h3>
+      </main>
+      <footer></footer>
+    </div>
   </body>
+  <script>
+    document.getElementById("showDate").textContent =
+      "Date: " + new Date().toDateString();
+  </script>
 </html>

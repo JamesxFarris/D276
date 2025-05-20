@@ -25,6 +25,24 @@ header {
 
 hr {
   margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.wgu-logo {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10%;
+  height: auto;
+  z-index: 0;
+}
+
+.wgu-logo.left {
+  left: 10rem;
+}
+
+.wgu-logo.right {
+  right: 10rem;
 }
 
 .title-name {
@@ -90,8 +108,10 @@ hr {
   text-align: center;
 }
 
-.cover-letter-title {
+.alt-title {
   background-color: #555;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .cover-intro {
@@ -106,6 +126,12 @@ hr {
 
 .cover-letter p {
   margin-bottom: 1rem;
+}
+
+.inspiration {
+  background-color: #6c63ff;
+  margin-top: 1rem;
+  padding: 0.5rem;
 }
 
 main {
